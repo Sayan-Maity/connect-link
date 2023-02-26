@@ -5,7 +5,7 @@ import "./Sidebar.css";
 
 import Dashboard from "../../pages/dashboard/Dashboard";
 import Home from "../../pages/home/Home"
-import logo from "../../assets/images/logo.jpg";
+import logo from "../../assets/images/logo3.jpg";
 import Settings from "../../pages/settings/Settings";
 import Support from "../../pages/support/Support";
 import Profile from "../../pages/profile/Profile"
@@ -68,6 +68,9 @@ const Sidebar = ({ children }) => {
             </div>
             <div className="">
               <div className="searchbar">
+                <div className="search-icon">
+                  <span class="material-symbols-outlined">search</span>
+                </div>
                 <input type="text" placeholder="Search"/>
               </div>
                 <NavLink to="/" key={<Home />} className="link ">

@@ -127,13 +127,26 @@ span.material-symbols-outlined {
 .searchbar {
     width: 100%;
     margin-top: 1rem;
+    /* background-color: red; */
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.searchbar .search-icon span {
+    color: #828282;
+    padding-left: 1rem;
+    transform: translateY(0.1rem);
 }
 .searchbar input {
     width: 100%;
-    outline: none;
-    border: 1px solid #c0c0c0;
-    padding: 0.5rem;
     border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
 
 }
 
@@ -171,6 +184,10 @@ span.material-symbols-outlined {
     }
     a.mobile-link .icon {
         color: #c8c8c8;
+    }
+    a.mobile-link .icon span {
+        font-size: 1.5rem !important;
+
     }
     a.mobile-link {
         display: flex;
