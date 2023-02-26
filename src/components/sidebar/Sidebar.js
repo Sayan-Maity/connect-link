@@ -51,7 +51,7 @@ const Sidebar = ({ children }) => {
               <p>Messages</p>
             </div>
         </NavLink>
-        <NavLink to="/messages" key={<Messages />} className="mobile-link ">
+        <NavLink to="/more" key={<Messages />} className="mobile-link ">
             <div className="icon">
               <span class="material-symbols-outlined">menu</span>
             </div>

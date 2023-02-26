@@ -59,6 +59,7 @@ main{
     border-radius: 5px;
     border: 3px solid transparent;
     margin-bottom: -1rem;
+    cursor: pointer;
     
 }
 .link_text p {
@@ -147,12 +148,6 @@ span.material-symbols-outlined {
     padding: 0.5rem 1rem;
     flex-direction: row;
 }
-.mobile-link_text {
-    font-size: 0.7rem;
-}
-a.mobile-link .icon {
-    color: #c8c8c8;
-}
 @media screen and (max-width: 700px) {
     .container {
         width: 100%;
@@ -160,13 +155,28 @@ a.mobile-link .icon {
     .sidebar {
         display: none;
     }
+    .mobile-link_text {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #c8c8c8;
+    }
     .active {
         border: none;
+    }
+    .active .mobile-link_text{
         color: blue !important;
     }
-    .mobile-link_text p {
-        text-decoration: none;
-    
+    .active span {
+        color: blue !important;
+    }
+    a.mobile-link .icon {
+        color: #c8c8c8;
+    }
+    a.mobile-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none !important;
     }
 }
 
