@@ -140,9 +140,18 @@ span.material-symbols-outlined {
 /* ////////////////////////////////////////////// */
 
 .mobile-container {
-    background-color: #ffea75;
+    background-color: #fff;
     width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    flex-direction: row;
+}
+.mobile-link_text {
+    font-size: 0.7rem;
+}
+a.mobile-link .icon {
+    color: #c8c8c8;
 }
 @media screen and (max-width: 700px) {
     .container {
@@ -150,6 +159,14 @@ span.material-symbols-outlined {
     }
     .sidebar {
         display: none;
+    }
+    .active {
+        border: none;
+        color: blue !important;
+    }
+    .mobile-link_text p {
+        text-decoration: none;
+    
     }
 }
 

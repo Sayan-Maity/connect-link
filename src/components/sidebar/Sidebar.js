@@ -19,7 +19,47 @@ const Sidebar = ({ children }) => {
   return (
     <div className="container">
       <div className="mobile-container">
-        <h1>Mobile Container</h1>
+        <NavLink to="/" key={<Home />} className="mobile-link ">
+            <div className="icon">
+              <span class="material-symbols-outlined">home</span>
+            </div>
+            <div className="mobile-link_text">
+              <p>Home</p>
+            </div>
+        </NavLink>
+        <NavLink to="/dashboard" key={<Dashboard />} className="mobile-link ">
+            <div className="icon">
+              <span class="material-symbols-outlined">grid_view</span>
+            </div>
+            <div className="mobile-link_text">
+              <p>Dashboard</p>
+            </div>
+        </NavLink>
+        <NavLink to="/profile" key={<Profile />} className="mobile-link ">
+            <div className="icon">
+              <span class="material-symbols-outlined">person</span>  
+            </div>
+            <div className="mobile-link_text">
+              <p>Profile</p>
+            </div>
+        </NavLink>
+        <NavLink to="/messages" key={<Messages />} className="mobile-link ">
+            <div className="icon">
+              <span class="material-symbols-outlined">chat_bubble</span>  
+            </div>
+            <div className="mobile-link_text">
+              <p>Messages</p>
+            </div>
+        </NavLink>
+        <NavLink to="/messages" key={<Messages />} className="mobile-link ">
+            <div className="icon">
+              <span class="material-symbols-outlined">menu</span>
+            </div>
+            <div className="mobile-link_text">
+              <p>More</p>
+            </div>
+        </NavLink>
+        
       </div>
       <div className="sidebar">
         <div className="top_section">
