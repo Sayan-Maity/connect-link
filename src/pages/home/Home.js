@@ -67,7 +67,7 @@ const Home = () => {
             </div>
             <div className="item-div">
               <div className="item1">
-                <div className="item-logo"></div>
+                <div className="item-logo item1-logo"></div>
                 <div className="item-desc">
                   <div className="item-name">
                     <p>Catalog</p>
@@ -78,7 +78,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="item1">
-                <div className="item-logo"></div>
+                <div className="item-logo item2-logo"></div>
                 <div className="item-desc">
                   <div className="item-name">
                     <p>Circooles</p>
@@ -89,7 +89,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="item1">
-                <div className="item-logo"></div>
+                <div className="item-logo item3-logo"></div>
                 <div className="item-desc">
                   <div className="item-name">
                     <p>Command+R</p>
@@ -100,7 +100,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="item1">
-                <div className="item-logo"></div>
+                <div className="item-logo item4-logo"></div>
                 <div className="item-desc">
                   <div className="item-name">
                     <p>Hourglass</p>
@@ -111,7 +111,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="item1">
-                <div className="item-logo"></div>
+                <div className="item-logo item5-logo"></div>
                 <div className="item-desc">
                   <div className="item-name">
                     <p>Layers</p>
@@ -122,7 +122,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="item1">
-                <div className="item-logo"></div>
+                <div className="item-logo item6-logo"></div>
                 <div className="item-desc">
                   <div className="item-name">
                     <p>Quotient</p>
