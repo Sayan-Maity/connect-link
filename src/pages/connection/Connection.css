@@ -25,10 +25,10 @@
 }
 
 .connection {
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     font-family: 'Montserrat', sans-serif;
     justify-content: flex-start;
     max-height: 100vh;

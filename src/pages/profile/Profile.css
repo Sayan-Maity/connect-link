@@ -25,10 +25,10 @@
 }
 
 .profile {
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     font-family: 'Montserrat', sans-serif;
     justify-content: flex-start;
     max-height: 100vh;
@@ -44,5 +44,13 @@
     overflow-y: scroll;
     /* border-radius: 10px; */
     padding-bottom: 2rem;
-
+    
 }
+/* @media screen and (max-width: 700px) {
+    .profile {
+        align-items: flex-start !important;
+    }
+    .profile-main {
+        align-items: flex-start !important;
+    }
+} */
